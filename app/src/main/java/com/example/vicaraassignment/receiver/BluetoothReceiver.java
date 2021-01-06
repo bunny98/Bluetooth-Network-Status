@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.example.vicaraassignment.interfaces.BluetoothReceiverInterface;
+import com.example.vicaraassignment.service.NotificationService;
 
 public class BluetoothReceiver extends BroadcastReceiver {
     private BluetoothReceiverInterface listener;

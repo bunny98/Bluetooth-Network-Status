@@ -1,57 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:orientation="vertical"
+        android:layout_height="100dp"
         android:padding="20dp"
-        android:gravity="center"
-        >
+        android:src="@drawable/wifi_icon"
+        />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:padding="20dp"
-            android:src="@drawable/wifi_icon" />
+    <TextView
+        android:id="@+id/wifiStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="@string/placeholder" />
 
-        <TextView
-            android:id="@+id/wifiStatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/placeholder"
-            android:gravity="center_horizontal"
-            android:padding="20dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:src="@drawable/bluetooth_icon" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:padding="20dp"
-            android:src="@drawable/bluetooth_icon" />
+    <TextView
+        android:id="@+id/bluetoothStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="@string/placeholder" />
 
-        <TextView
-            android:id="@+id/bluetoothStatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/placeholder"
-            android:gravity="center_horizontal"
-            android:padding="20dp"/>
+    <Switch
+        android:id="@+id/bluetoothSwitch"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="@string/switch_text" />
 
-        <Switch
-            android:id="@+id/bluetoothSwitch"
-            android:layout_width="155dp"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:padding="20dp"
-            android:text="@string/switch_text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startNotificationService"
+        android:text="START NOTIFICATION SERVICE" />
 
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopNotificationService"
+        android:text="STOP NOTIFICATION SERVICE" />
+
+</LinearLayout>

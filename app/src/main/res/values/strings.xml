@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Vicara Assignment</string>
-    <string name="status_on">Status: On</string>
-    <string name="status_off">Status: Off</string>
+    <string name="status_on">Status On</string>
+    <string name="status_off">Status Off</string>
     <string name="placeholder">Placeholder</string>
     <string name="switch_text">Switch</string>
     <string name="status_turning_on">Turning on...</string>
     <string name="status_turning_off">Turning off...</string>
     <string name="wifi_on">Connected to WiFi</string>
     <string name="mobile_data_on">Connected to Mobile Data</string>
+    <string name="channel_name">Vicara Notification</string>
+    <string name="channel_description">Network and Bluetooth Intimation</string>
 </resources>
