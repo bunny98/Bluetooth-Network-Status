@@ -1,35 +1,28 @@
-package com.example.vicaraassignment.service;
+package com.example.foregroundservice.service;
 
-import android.app.AlarmManager;
 import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
-import android.os.Build;
 import android.os.IBinder;
-import android.os.SystemClock;
 import android.util.Log;
 
 
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
 
-import com.example.vicaraassignment.MainActivity;
-import com.example.vicaraassignment.R;
-import com.example.vicaraassignment.interfaces.BluetoothReceiverInterface;
-import com.example.vicaraassignment.interfaces.NetworkReceiverInterface;
-import com.example.vicaraassignment.receiver.BluetoothReceiver;
-import com.example.vicaraassignment.receiver.NetworkReceiver;
-import com.example.vicaraassignment.util.NetworkUtil;
+import com.example.foregroundservice.MainActivity;
+import com.example.foregroundservice.R;
+import com.example.foregroundservice.interfaces.BluetoothReceiverInterface;
+import com.example.foregroundservice.interfaces.NetworkReceiverInterface;
+import com.example.foregroundservice.receiver.BluetoothReceiver;
+import com.example.foregroundservice.receiver.NetworkReceiver;
+import com.example.foregroundservice.util.NetworkUtil;
 
-import static com.example.vicaraassignment.App.CHANNEL_ID;
+import static com.example.foregroundservice.App.CHANNEL_ID;
 
 public class NotificationService extends Service implements BluetoothReceiverInterface, NetworkReceiverInterface {
 

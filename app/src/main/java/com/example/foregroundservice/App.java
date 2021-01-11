@@ -1,12 +1,10 @@
-package com.example.vicaraassignment;
+package com.example.foregroundservice;
 
 import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
 import android.util.Log;
-
-import com.example.vicaraassignment.service.NotificationService;
 
 public class App extends Application {
     public static final String CHANNEL_ID = "notificationChannel";

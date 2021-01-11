@@ -1,32 +1,25 @@
-package com.example.vicaraassignment;
+package com.example.foregroundservice;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import android.app.ActivityManager;
-import android.app.Notification;
 import android.bluetooth.BluetoothAdapter;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.vicaraassignment.interfaces.BluetoothReceiverInterface;
-import com.example.vicaraassignment.interfaces.NetworkReceiverInterface;
-import com.example.vicaraassignment.receiver.BluetoothReceiver;
-import com.example.vicaraassignment.receiver.NetworkReceiver;
-import com.example.vicaraassignment.service.NotificationService;
-import com.example.vicaraassignment.util.NetworkUtil;
+import com.example.foregroundservice.interfaces.BluetoothReceiverInterface;
+import com.example.foregroundservice.interfaces.NetworkReceiverInterface;
+import com.example.foregroundservice.receiver.BluetoothReceiver;
+import com.example.foregroundservice.receiver.NetworkReceiver;
+import com.example.foregroundservice.service.NotificationService;
+import com.example.foregroundservice.util.NetworkUtil;
 
 public class MainActivity extends AppCompatActivity implements BluetoothReceiverInterface, NetworkReceiverInterface {
     private static final String TAG = MainActivity.class.getSimpleName();

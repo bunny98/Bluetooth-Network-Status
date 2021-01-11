@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Vicara Assignment</string>
+    <string name="app_name">Foreground Service Demo</string>
     <string name="status_on">Status On</string>
     <string name="status_off">Status Off</string>
     <string name="placeholder">Placeholder</string>

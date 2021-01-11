@@ -1,4 +1,4 @@
-package com.example.vicaraassignment;
+package com.example.foregroundservice;
 
 import android.content.Context;
 

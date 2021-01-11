@@ -1,4 +1,4 @@
-package com.example.vicaraassignment.util;
+package com.example.foregroundservice.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
