@@ -8,7 +8,7 @@ A simple android application that shows the current network and bluetooth status
 
 ## Class Diagram
 <p align="center">
-  <img src="PICTURES/5.png">
+  <img src="PICTURES/overview.png">
 </p>
 
 * MainActivity and NotificationService classes implement both BluetoothReceiverInterface and NetworkReceiverInterface.
