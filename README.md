@@ -3,5 +3,5 @@ A simple android application that shows that current network and bluetooth statu
 ## Screenshots
 <p align="center">
   <img width="200" height="400" src="PICTURES/1.jpeg">&nbsp;&nbsp;<img src="PICTURES/2.jpeg" width="200" height="400">&nbsp;&nbsp;
-  <img src="PICTURES/3.jpeg" width="200" height="400">&nbsp;&nbsp;<img src="PICTURES/4.jpeg" width="200" height="400">
+  <img src="PICTURES/3.jpeg" width="200" height="400">&nbsp;&nbsp;<img src="PICTURES/last.jpeg" width="200" height="400">
 </p>
