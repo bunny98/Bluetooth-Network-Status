@@ -10,3 +10,7 @@ A simple android application that shows the current network and bluetooth status
 <p align="center">
   <img src="PICTURES/5.png">
 </p>
+
+* MainActivity and NotificationService classes implement both BluetoothReceiverInterface and NetworkReceiverInterface.
+* Activity/Service specific implementation of abstract function handleState() in the interfaces are provided.
+* BluetoothReceiver and NetworkReceiver classes are BroadcastReceivers which update UI through handleState() function in the respective interfaces mentioned above.
