@@ -8,5 +8,5 @@ A simple android application that shows the current network and bluetooth status
 
 ## Class Diagram
 <p align="center">
-  <img width="400" height="400" src="PICTURES/1.jpeg">
+  <img src="PICTURES/5.jpeg">
 </p>
